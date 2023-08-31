@@ -1,3 +1,15 @@
+/* estilos generales */
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+
 /* menu */
 .navbar{
     padding: 2rem;
@@ -9,3 +21,33 @@
     justify-content: space-between;
 }
 
+/* hero */
+.hero{
+background-color: #f5f6f7;
+min-height: 450px;
+text-align: center;
+}
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-principal h2{
+    font-size:  1.5rem;
+    color: #615151;
+}
+
+.hero-inferior{
+
+}
+.perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* rounded-circle en bootstrap */
+    margin: 20px;
+}
+
+@media (min-width:700px){
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+}
